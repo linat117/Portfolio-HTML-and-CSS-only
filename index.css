@@ -1,0 +1,375 @@
+* {
+  background-color: #0a090c;
+}
+.header {
+  padding: 4px 10px;
+}
+nav {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-size: 32px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  color: orangered;
+  margin-left: 60px;
+}
+.nav-links {
+  margin-left: 364px;
+}
+.nav-links a {
+  font-size: 20px;
+  padding: 0px 16px 0px 16px;
+}
+.link {
+  color: antiquewhite;
+}
+.link:active {
+  color: orangered;
+}
+.link:hover {
+  color: orangered;
+
+  text-decoration: solid white;
+}
+.contact-button {
+  background-color: orangered;
+  padding: 12px 20px;
+  border-radius: 22px;
+  border: 2px;
+  box-shadow: 2px aliceblue;
+  color: antiquewhite;
+  font-size: 18px;
+}
+.contact-button:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+  color: orangered;
+}
+.about-me {
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  border-color: orangered;
+}
+.about-card {
+  padding: 44px 54px 44px 10px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 900px;
+  background-color: antiquewhite;
+  margin: 10px 80px 10px 300px;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+.greeting {
+  color: orangered;
+  font-size: 84px;
+  background-color: antiquewhite;
+  margin: 0px, 80px, 30px, 80px;
+}
+.intro {
+  background-color: antiquewhite;
+
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+}
+strong {
+  background-color: antiquewhite;
+  color: orangered;
+}
+.education {
+  display: flex;
+  margin: 60px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+
+  border-top-left-radius: 50% 20%;
+  border-top-right-radius: 50% 20%;
+}
+.left-education {
+  color: antiquewhite;
+  max-width: 500px;
+}
+.left-education button {
+  background-color: orangered;
+  color: antiquewhite;
+  border-radius: 22px;
+  padding: 12px 22px;
+  font-size: 16px;
+}
+.left-education h2 {
+  font-size: 58px;
+  color: orangered;
+}
+.left-education h5 {
+  font-size: 20px;
+}
+.left-education button:hover {
+  background-color: antiquewhite;
+  color: orangered;
+}
+.right-education img {
+  width: 500px;
+}
+.whole-education {
+  padding-top: 60px;
+  border-top-left-radius: 50% 20%;
+  border-top-right-radius: 50% 20%;
+}
+.skills {
+  padding-top: 60px;
+}
+.skill-section {
+  display: flex;
+  margin-left: 130px;
+  gap: 20px;
+}
+.skills .topic-skill {
+  color: orangered;
+  justify-content: center;
+  align-items: center;
+  margin-left: 530px;
+  font-size: 58px;
+  padding-bottom: 30px;
+}
+.skill-card img {
+  padding: 40px 30px 40px 30px;
+  width: 130px;
+  height: 130px;
+  border-radius: 40px;
+  background-color: antiquewhite;
+}
+.interests {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4rem;
+  background-color: #000;
+  padding: 5rem 5vw;
+  margin-left: 100px;
+  margin-top: 40px;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+  flex-wrap: wrap;
+}
+
+.interests h1 {
+  flex: 0 0 auto;
+  font-size: 3rem;
+  margin: 0;
+  margin-right: 60px;
+  line-height: 1.2;
+  max-width: 300px;
+  color: orangered;
+}
+
+.interest-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.interests h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transform: rotateZ(var(--angle));
+  transition: transform 0.3s ease;
+  cursor: default;
+  max-width: 280px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.interests h2:nth-of-type(1) {
+  --angle: -3deg;
+}
+.interests h2:nth-of-type(2) {
+  --angle: 2deg;
+}
+.interests h2:nth-of-type(3) {
+  --angle: -2deg;
+}
+.interests h2:nth-of-type(4) {
+  --angle: 4deg;
+}
+
+.interests h2:hover {
+  transform: rotate(0deg) scale(1.05);
+  background-color: #222;
+}
+
+.interests img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  filter: brightness(1.3);
+  transition: transform 0.3s ease;
+}
+
+.interests h2:hover img {
+  transform: scale(1.2);
+}
+
+.projects {
+  padding: 40px 20px;
+  text-align: center;
+  background: #0a090c;
+}
+
+.projects h2 {
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+  color: orangered;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  width: 300px;
+  height: 360px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-back {
+  background: #ff4500;
+  color: #fff;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  gap: 15px;
+}
+.card-back h3 {
+  color: Black;
+  background-color: orangered;
+}
+.card-back a {
+  background-color: orangered;
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.card-back p {
+  background-color: orangered;
+  color: antiquewhite;
+}
+
+.card-back a:hover {
+  color: #000;
+}
+
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: antiquewhite;
+  color: orangered;
+}
+
+.contact h2 {
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+  background-color: antiquewhite;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  color: #0a090c;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: orangered;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact-links a img {
+  width: 24px;
+  height: 24px;
+  background-color: orangered;
+}
+
+.contact-links a:hover {
+  background-color: orangered;
+  transform: scale(1.05);
+  border-color: #999;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px 0;
+  color: #aaa;
+  font-size: 1.6rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer strong {
+  color: orangered;
+  background-color: #0a090c;
+}
