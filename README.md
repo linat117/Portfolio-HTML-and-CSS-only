@@ -20,9 +20,8 @@ Live Demo: [https://hilina-teshome-portfolio.netlify.app/](https://hilina-teshom
 
 - **HTML5**
 - **CSS3 (Flexbox & Grid)**
-- **Responsive Media Queries**
 - **SVG & CDN Icons**
 - **No JavaScript, No Frameworks**
 
 
-## 🖼️ Screenshots
+
