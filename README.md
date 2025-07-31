@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This  single-page application showcases my educational background, programming skills, personal interests, and a selection of projects I’ve built.
 
-Live Demo: [https://your-portfolio-url.com](https://your-portfolio-url.com)
+Live Demo: [https://hilina-teshome-portfolio.netlify.app/](https://hilina-teshome-portfolio.netlify.app/)
 
 
 ## 🧾 Features
